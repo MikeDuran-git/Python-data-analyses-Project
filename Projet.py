@@ -46,8 +46,8 @@ import scipy as sp
 Import des Données du sommeil
 """
 
-with open('Projet.csv', 'r') as f:
-    csv_reader = csv.reader(f)
+data = pd.read_csv("Projet.csv")
+print(data.head())
 
 
 

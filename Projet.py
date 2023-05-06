@@ -46,7 +46,7 @@ import scipy as sp
 Import des Données du sommeil
 """
 
-df = pd.read_csv("C:/Users/Engasser Ophélie/Desktop/Python-data-analyses-Project/Projet.csv")
+df = pd.read_csv("./Projet.csv")
 
 print(df.head())
 
